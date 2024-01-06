@@ -61,13 +61,152 @@ nav a {
     font-size:35px;
     margin: 20px 0px;
     color: #fd6f0a8e;
+    text-shadow: 2px 2px 1px rgba(22, 5, 29, 0.657);
 }
 .bener .text-benar p{
     margin-bottom: 20px;
     line-height: 24px;
-    text-shadow: 2px 1px 1px rgba(182, 52, 233, 0.657);
+    
 }
 .bener .photo-shuvo{
     width:580px;
     padding-right:50px;
+}
+/*0ne-section code Start  */
+.one-section{
+    width:600px;
+    text-align: center;
+    margin:50px auto;
+    padding: 60px 90px 80px 60px;
+    background-color: #faece3;
+}
+.one-section h2{
+    padding: 20px 0px;
+    font-size:32px;
+}
+.one-section p{
+    color: rgba(0, 0, 0, 0.664);
+    margin-bottom:7px;
+}
+.one-section .text-pera{
+    display: flex;
+    justify-content: space-between;
+    margin:50px 0px 5px 0px;
+}
+/* Two section code suru */
+.two-section{
+    width:600px;
+    padding: 60px 90px 10px 60px;
+    text-align: center;
+    margin:50px auto;
+}
+.two-section p{
+    line-height:2;
+    color: #140c06;
+    padding-top: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    letter-spacing:0.9px;
+    word-spacing: 5px;
+}
+
+/* There section code start */
+.Therd-div-prent{
+    width:900px;
+    gap:40px;
+    text-align: center;
+    margin: 40px auto;
+    display:flex;
+    padding-bottom:50px;
+
+}
+
+.Therd-div-prent .card-div{
+    padding: 15px 18px 25px 18px;
+    box-shadow: 2px 2px 8px rosybrown;
+}
+.Therd-div-prent .card-div h3{
+    padding:10px 0px;
+    font-size: 22px;
+    font-weight: bold;
+}
+.Therd-div-prent .card-div p{
+    text-align:justify ;
+    line-height:1.4;
+}
+
+/* four code start */
+
+.for-div-prent{
+    width:900px;
+    margin: 30px auto;
+    padding:50px 0px 80px 0px;
+}
+.for-div-prent .bonton{
+    display: block;
+    padding:18px 20px;
+    background-color: #FD6E0A;
+    margin:20px auto;
+    border-radius: 5px;
+
+}
+.for-div-prent> h2{
+    text-align: center;
+    padding: 50px 0px;
+    font-style: italic;
+    text-shadow: 2px 2px 1px rgba(255, 0, 0, 0.178);
+}
+.for-div-prent .prent-div{
+    display: flex;
+    gap: 38px;
+    padding: 20px 20px;
+
+ 
+}
+.for-div-prent .text-iterm h3{
+    padding:15px 0px 3px 0px;
+}
+.for-div-prent .text-iterm p{
+    color: #00000098;
+}
+.for-div-prent .text-iterm .text{
+    padding: 14px 0px;
+    color: rgba(0, 0, 0, 0.623);
+}
+
+/* footer section code  start*/
+footer{
+    padding: 80px 250px;
+    background-color: #f1dbcc77;
+}
+.text-form{
+    display: flex;
+    gap: 90px;
+}
+.text-form .form-div{
+    width: 50%;
+}
+.text-form .form-div h3{
+    font-size:37px;
+    padding-bottom: 30px;
+    color: #140c0694;
+}
+.text-form .form-div .link a{
+    display:inline-block;
+    margin: 30px 10px 0px 0px ;
+}
+.text-form .form-div .input-div input[type="text"], input[type="email"] ,textarea{
+    width:100%;
+    display: block;
+    margin-bottom:22px;
+    padding:18px;
+    border: none;
+    border-radius: 3px;
+}
+.text-form .form-div .input-div .button-link{
+    padding:15px 25px;
+    display: block;
+    margin-top: 10px;
+    background-color: #FD6E0A;
+    border: none;
+    border-radius: 4px;
 }
